@@ -1,0 +1,27 @@
+title:       "Himpunan Peraturan NKRI XXXX"
+version:     "0000--02-APR-2022"
+copyright:   "2022-2022"
+description: Himpunan Peraturan NKRI XXXX.
+      This site is managed by VauLSMorg (vlsm.org) since XXXX.
+google_analytics: UA-89852122-7
+disc: You are free to share, copy and redistribute the material of this site 
+      in any medium or format for any purpose, even commercially. 
+      Please give appropriate credit, provide a link to the page, 
+      and indicate if changes were made. You may do so in any reasonable manner. 
+      You should not apply legal terms or technological measures, 
+      that legally restrict others from doing anything that is permited here.
+show_downloads: false
+sitemap: true
+author:           "Abu A. Al-Kulunia"
+address:          "Cologne 50859"
+sitemap:          "true"
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+urlweb:           "https://uuppri.github.io/XXXX/"
+urlcontact:       "TBA"
+urlgithub:        "https://github.com/UUPPRI/XXXX/"
+urlghpage:        "https://uuppri.github.io/XXXX/"
+keywords:         "jekyll, testing"
+github:           [metadata]
+
