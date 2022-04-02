@@ -179,6 +179,7 @@ KOMINFOKUKM
 KUMHAM
 LHK
 LU
+NAKER
 PANRB
 PPN
 PPPA
@@ -220,6 +221,8 @@ index.md
 
 ./PERMEN/LU:
 index.md
+
+./PERMEN/NAKER:
 
 ./PERMEN/PANRB:
 index.md
