@@ -1,12 +1,12 @@
 #!/bin/bash
-# REV07: Tue 12 Oct 2021 11:08:17 WIB
-# REV06: Sun 25 Jul 2021 06:13:30 WIB
-# REV05: Wed 02 Jun 2021 09:07:44 WIB
-# REV04: Sat 31 Oct 2020 21:08:36 WIB
-# REV03: Thu 22 Oct 2020 08:56:05 WIB
-# START: Tue 25 Dec 2018 10:54:23 WIB
+# REV08: Sun 01 Oct 2023 08:00
+# REV07: Tue 12 Oct 2021 11:00
+# REV06: Sun 25 Jul 2021 06:00
+# REV05: Wed 02 Jun 2021 09:00
+# REV03: Thu 22 Oct 2020 08:00
+# START: Tue 25 Dec 2018 10:00
 
-# Copyright (C) 2018-2021 Rahmat M. Samik-Ibrahim http://RahmatM.Samik-Ibrahim.vLSM.org/
+# Copyright (C) 2018-2023 Rahmat M. Samik-Ibrahim http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This program is free script/software. This program is distributed in the hope 
 # that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -14,7 +14,8 @@
 
 function mkidx {
     cd $1
-    printf -- '---\nlayout: "layout"\n---\n# 2021\n'      >  index.md
+    ######    ############################## YEAR
+    printf -- '---\nlayout: "layout"\n---\n# 2023\n'      >  index.md
     for II in $(ls) ; do
         [ "$II" == "index.md" ] && continue
         [ -f $II ] && echo "* [$II]($II)"       >> index.md
@@ -32,7 +33,7 @@ layout: "layout"
 ---
 
 <br>
-# 2021
+# 2023
 \`\`\`
 EOF
 ls -R >> ${README}.md
